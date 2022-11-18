@@ -199,7 +199,7 @@ function fetch_data_Account($db, $tableNameAccount, $columnsAccounts){
                                 <th data-priority="3">Rebate Points</th>
                                 <th data-priority="4">Total Earnings</th>
                                 <th data-priority="5">Upline</th>
-                                <th data-priority="6">Action</th>
+                                <!-- <th data-priority="6">Action</th> -->
                             </tr>
                         </thead>
                         <tbody>
@@ -219,7 +219,7 @@ function fetch_data_Account($db, $tableNameAccount, $columnsAccounts){
                                 <td class="text-center"><?php echo $pointsEarned; ?></td>
                                 <td class="text-center"><?php echo $totalIncome; ?></td>
                                 <td class="text-center"><?php echo $sponsorName; ?></td>
-                                <td class="text-center"><a class="mr-2 text-blue-500 text-center" href="#" data-memberId="">Edit</a><a class="ml-2 text-red-500" href="#" data-memberId="">Remove</a></td>
+                                <!-- <td class="text-center"><a class="mr-2 text-blue-500 text-center" href="#" data-memberId="">Edit</a><a class="ml-2 text-red-500" href="#" data-memberId="">Remove</a></td> -->
                             </tr>
                         <?php
                                 }
